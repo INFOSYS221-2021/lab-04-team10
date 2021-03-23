@@ -9,8 +9,8 @@ Lab-04-Team-10
 4. Michael Shirley
 
 
-1. S
-2. S
+1. List three data types used in this program? Number, list, string 
+2. List any value variables or reference variables in this program? Letter, computerLetter, turn 
 3. S
 4. S
 5. S
