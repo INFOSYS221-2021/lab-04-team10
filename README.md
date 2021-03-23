@@ -22,13 +22,15 @@ the first element in the list is the player’s letter, the second is the comput
   return ['X', 'O']
  else:
   return ['O', 'X']
-4.ve an example of a condition in this program.
+  
+4.Give an example of a condition in this program.
 def whoGoesFirst():
  Randomly choose the player who goes first.
  if random.randint(0, 1) == 0:
   return 'computer'
  else:
   return 'player'
+  
 5. S
 6. S
 7. Give an example of a function that has at least one parameter in this program. And, briefly explain what the function is trying to achieve? Example is: def chooseRandomMoveFromList(board, movesList):, Purpose: Returns a valid move from the passed list on the passed board and Returns None if there is no valid move.
