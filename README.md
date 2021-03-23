@@ -16,7 +16,7 @@ Exercise 1
 4. S
 5. S
 6. S
-7. S
+7. Give an example of a function that has at least one parameter in this program. And, briefly explain what the function is trying to achieve? Example is: def chooseRandomMoveFromList(board, movesList):, Purpose: Returns a valid move from the passed list on the passed board and Returns None if there is no valid move.
 8. The isWinner Function. It searches each possible winning combination to determine if the game is over. It is called in the While True loop
 9. It doesnt change it, both of the logical paths depend on the same condition. If the loop breaks the game is over, if isGamePlaying is false, then its over also
 10. While True starts a loop without a variable as a condition and continues until the loop is broken inside itself. You parse a type into a conditional loop which depends on the type, since it is parsed a type instead of a variable You cant change the conditional unless you break it inside.
