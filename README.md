@@ -12,7 +12,7 @@ Exercise 1
 ====
 1. List three data types used in this program? Number, list, string 
 2. List any value variables or reference variables in this program? Letter, computerLetter, turn 
-3.Give an example of a sequence in this program.
+3. Give an example of a sequence in this program.
 while not (letter == 'X' or letter == 'O'):
   print('Do you want to be X or O?')
   letter = input().upper()
