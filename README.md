@@ -7,3 +7,15 @@ Lab-04-Team-10
 2. Benyamin Shahmohammadi 
 3. Yun-Ting Lin 
 4. Michael Shirley
+
+
+1. S
+2. S
+3. S
+4. S
+5. S
+6. S
+7. S
+8. The isWinner Function. It searches each possible winning combination to determine if the game is over. It is called in the While True loop
+9. It doesnt change it, both of the logical paths depend on the same condition. If the loop breaks the game is over, if isGamePlaying is false, then its over also
+10. While True starts a loop without a variable as a condition and continues until the loop is broken inside itself. You parse a type into a conditional loop which depends on the type, since it is parsed a type instead of a variable You cant change the conditional unless you break it inside.
