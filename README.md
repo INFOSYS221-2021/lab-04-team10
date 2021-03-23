@@ -12,8 +12,24 @@ Exercise 1
 ====
 1. List three data types used in this program? Number, list, string 
 2. List any value variables or reference variables in this program? Letter, computerLetter, turn 
-3. S
-4. S
+3. while not (letter == 'X' or letter == 'O'):
+  print('Do you want to be X or O?')
+  letter = input().upper()
+  
+the first element in the list is the player’s letter, the second is the computer's letter.
+
+if letter == 'X':
+  return ['X', 'O']
+ else:
+  return ['O', 'X']
+  
+4. def whoGoesFirst():
+Randomly choose the player who goes first.
+ if random.randint(0, 1) == 0:
+  return 'computer'
+ else:
+  return 'player'
+  
 5. while not (letter == 'X' or letter == 'O'):
       print('Do you want to be X or O?')
       letter = input().upper()
